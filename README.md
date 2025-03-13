@@ -4,9 +4,13 @@ A project of Cristal and Anton for the ML course
 13 March
 
 Next steps:
+
 1.Unencoding
+
 2.feature engineering - is already 
+
 3.test ML after FE:  same distribution
+
 4.Review documentation of project to start writing
 
 
