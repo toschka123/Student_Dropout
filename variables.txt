@@ -1,0 +1,41 @@
+# %%
+"""
+Table of Variables:
+
+Variable Name                  | Data Type | Measurement | Description                                                                 | Categories (if applicable)
+---------------------------------|-----------|-------------|---------------------------------------------------------------------------|----------------------------
+Marital status                 | Integer   | Nominal     | Student's marital status                                                    | 1-Single, 2-Married, 3-Widower, 4-Divorced, 5-Co-habitant, 6-Separated
+Application mode               | Integer   | Ordinal     | Type of application                                                         | 17 distinct values mentioned
+Application order              | Integer   | Ordinal     | Application order within the group                                          | -
+Course                         | Integer   | Nominal     | Student's degree course                                                     | 17 distinct values mentioned
+Daytime/evening attendance       | Integer   | Nominal     | Day or evening attendance                                                 | 1-Daytime, 0-Evening
+Previous qualification         | Integer   | Nominal     | Previous qualification (e.g., high school, bachelor's)                      | 12 distinct values mentioned
+Previous qualification (grade) | Real      | Continuous  | Grade of the previous qualification                                         | -
+Nacionality                    | Integer   | Nominal     | Student's nationality                                                       | 21 distinct values mentioned
+Mother's qualification         | Integer   | Nominal     | Mother's qualification                                                      | 29 distinct values mentioned
+Father's qualification         | Integer   | Nominal     | Father's qualification                                                      | 34 distinct values mentioned
+Mother's occupation            | Integer   | Nominal     | Mother's occupation                                                         | 32 distinct values mentioned
+Father's occupation            | Integer   | Nominal     | Father's occupation                                                         | 46 distinct values mentioned
+Admission grade                  | Real      | Continuous  | Admission grade                                                           | -
+Displaced                      | Integer   | Nominal     | Displaced from home country                                                 | 1-Yes, 0-No
+Educational special needs      | Integer   | Nominal     | Has educational special needs                                               | 1-Yes, 0-No
+Debtor                         | Integer   | Nominal     | Student is a debtor                                                         | 1-Yes, 0-No
+Tuition fees up to date        | Integer   | Nominal     | Tuition fees paid up to date                                                | 1-Yes, 0-No
+Gender                         | Integer   | Nominal     | Student's gender                                                            | 1-Male, 0-Female
+Scholarship holder             | Integer   | Nominal     | Student is a scholarship holder                                             | 1-Yes, 0-No
+Age at enrollment              | Integer   | Ordinal     | Student's age at the time of enrollment                                     | -
+International                  | Integer   | Nominal     | International student                                                       | 1-Yes, 0-No
+Curricular units 1st semester (credited)   | Integer   | Continuous  | Number of curricular units 1st semester (credited)              | -
+Curricular units 1st semester (enrolled)   | Integer   | Continuous  | Number of curricular units 1st semester (enrolled)              | -
+Curricular units 1st semester (evaluations)| Integer   | Continuous  | Number of curricular units 1st semester (evaluations)           | -
+Curricular units 1st semester (approved)   | Integer   | Continuous  | Number of curricular units 1st semester (approved)              | -
+Curricular units 1st semester (grade)      | Real      | Continuous  | Grade of the curricular units 1st semester                      | -
+Curricular units 1st semester (without evaluations)| Integer   | Continuous  | Number of curricular units 1st semester (without evaluations)   | -
+Curricular units 2nd semester (credited)   | Integer   | Continuous  | Number of curricular units 2nd semester (credited)                      | -
+Curricular units 2nd semester (enrolled)   | Integer   | Continuous  | Number of curricular units 2nd semester (enrolled)                      | -
+Curricular units 2nd semester (evaluations)| Integer   | Continuous  | Number of curricular units 2nd semester (evaluations)                   | -
+Curricular units 2nd semester (approved)   | Integer   | Continuous  | Number of curricular units 2nd semester (approved)                      | -
+Curricular units 2nd semester (grade)      | Real      | Continuous  | Grade of the curricular units 2nd semester                              | -
+Curricular units 2nd semester (without evaluations)| Integer   | Continuous  | Number of curricular units 2nd semester (without evaluations)   | -
+Target                         | String    | Nominal     | Dropout or academic success                                                         | 'Dropout', 'Graduate', 'Enrolled'
+"""
