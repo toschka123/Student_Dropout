@@ -17,14 +17,14 @@ Father's qualification         | Integer   | Nominal     | Father's qualificatio
 Mother's occupation            | Integer   | Nominal     | Mother's occupation                                                         | 32 distinct values mentioned
 Father's occupation            | Integer   | Nominal     | Father's occupation                                                         | 46 distinct values mentioned
 Admission grade                  | Real      | Continuous  | Admission grade                                                           | -
-Displaced                      | Integer   | Binary      | Displaced from home country                                                 | 1-Yes, 0-No
-Educational special needs      | Integer   | Binary      | Has educational special needs                                               | 1-Yes, 0-No
-Debtor                         | Integer   | Binary      | Student is a debtor                                                         | 1-Yes, 0-No
-Tuition fees up to date        | Integer   | Binary      | Tuition fees paid up to date                                                | 1-Yes, 0-No
-Gender                         | Integer   | Binary      | Student's gender                                                            | 1-Male, 0-Female
-Scholarship holder             | Integer   | Binary      | Student is a scholarship holder                                             | 1-Yes, 0-No
+Displaced                      | Integer   | Nominal     | Displaced from home country                                                 | 1-Yes, 0-No
+Educational special needs      | Integer   | Nominal     | Has educational special needs                                               | 1-Yes, 0-No
+Debtor                         | Integer   | Nominal     | Student is a debtor                                                         | 1-Yes, 0-No
+Tuition fees up to date        | Integer   | Nominal     | Tuition fees paid up to date                                                | 1-Yes, 0-No
+Gender                         | Integer   | Nominal     | Student's gender                                                            | 1-Male, 0-Female
+Scholarship holder             | Integer   | Nominal     | Student is a scholarship holder                                             | 1-Yes, 0-No
 Age at enrollment              | Integer   | Ordinal     | Student's age at the time of enrollment                                     | -
-International                  | Integer   | Binary      | International student                                                       | 1-Yes, 0-No
+International                  | Integer   | Nominal     | International student                                                       | 1-Yes, 0-No
 Curricular units 1st semester (credited)   | Integer   | Continuous  | Number of curricular units 1st semester (credited)              | -
 Curricular units 1st semester (enrolled)   | Integer   | Continuous  | Number of curricular units 1st semester (enrolled)              | -
 Curricular units 1st semester (evaluations)| Integer   | Continuous  | Number of curricular units 1st semester (evaluations)           | -
